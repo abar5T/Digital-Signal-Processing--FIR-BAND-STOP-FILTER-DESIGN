@@ -33,7 +33,7 @@ n=0:1:N-1
 hd=(sin(Wc1*(n-alpha+eps))+sin(pi*(n-alpha+eps))-sin(Wc2*(n-alpha+eps)))./(pi*(n-alpha+eps))
 %Blackman Window Sequence 
 n=0:1:N-1; 
-wh=0.42-0.5*cos((2*pi*n)/(N-1))-0.08*cos((4*pi*n)/(N-1))
+wh=0.42-0.5*cos((2*pi*n)/(N-1))+0.08*cos((4*pi*n)/(N-1))
 hn=hd.*wh 
 % Plot the Band Pass Filter with Blackman Window Technique
 w=0:0.01:pi; 
