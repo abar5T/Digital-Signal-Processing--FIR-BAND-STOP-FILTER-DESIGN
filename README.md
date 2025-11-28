@@ -46,5 +46,4 @@ plot(w/pi,abs(h),'blue');
 
 
 ## RESULT:
-<img width="1600" height="462" alt="image" src="https://github.com/user-attachments/assets/e589d18a-2679-455c-9048-bbf6d55be773" />
-
+![WhatsApp Image 2025-11-28 at 23 04 00_6ff664f3](https://github.com/user-attachments/assets/a0297d8f-4b95-434e-a5a0-1f33d7db3e47)
